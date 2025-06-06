@@ -1,10 +1,9 @@
 import { IoMdCall } from "react-icons/io";
 import { IoChatbox } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
 
 function Design() {
   return (
-    <div className="flex justify-around">
+    <div className="flex gap-5">
       <div>
         <form className="mt-14">
           <div className=" flex felx-col gap-8 ">
@@ -20,7 +19,7 @@ function Design() {
         </form>
       </div>
       <div>
-        <img src="..\img\img.png" alt="logo" className="w-6/12 flex-end"  />
+        <img src="https://raw.githubusercontent.com/anshuopinion/React-10-Projects/f3baadbbaca5c4dab15b4a811e8649d1f9f79473/project-2/public/images/contact.svg" alt="logo" className=""  />
       </div>
     </div>
   );
