@@ -3,7 +3,7 @@ import Hero from "./Hero"
 
 const  App = ()=> {
   return (
-    <div className=" mx-16">
+    <div className=" mx-10">
       <Header/>
       <Hero/>
     </div>
